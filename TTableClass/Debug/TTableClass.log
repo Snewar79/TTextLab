@@ -1,0 +1,18 @@
+﻿  main.cpp
+c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\main.cpp(19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\main.cpp(52): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\main.cpp(54): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\thashtable.h(43): warning C4018: '<': signed/unsigned mismatch
+  c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\thashtable.h(41): note: while compiling class template member function 'int THashTable<std::string,int>::hashFunc(TKey)'
+          with
+          [
+              TKey=std::string
+          ]
+  c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\thashtable.h(52): note: see reference to function template instantiation 'int THashTable<std::string,int>::hashFunc(TKey)' being compiled
+          with
+          [
+              TKey=std::string
+          ]
+  c:\users\администратор\documents\visual studio 2015\projects\ttableclass\ttableclass\main.cpp(21): note: see reference to class template instantiation 'THashTable<std::string,int>' being compiled
+  TTableClass.vcxproj -> C:\Users\Администратор\Documents\Visual Studio 2015\Projects\TTableClass\Debug\TTableClass.exe
+  TTableClass.vcxproj -> C:\Users\Администратор\Documents\Visual Studio 2015\Projects\TTableClass\Debug\TTableClass.pdb (Full PDB)
